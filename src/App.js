@@ -1,12 +1,16 @@
-//import user from './logo.svg';
-import './App.css';
+import "./App.css";
+import Navbar1 from "./components/Navbar.jsx";
+import Content from "./components/Content.jsx";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-
+    <div className="app">
+      <header>
+        <Navbar1 />
       </header>
+      <main>
+        <Content />
+      </main>
     </div>
   );
 }

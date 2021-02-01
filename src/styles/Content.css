@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #990000;
+    background-image: url('../images/stats.jpg');
+  }
+  
+  .form {
+    width: 450px;
+    border: solid 1px;
+  }
+  
+  .logo-header{
+    width: 30px;
+    height: 30px;
+    margin: 5px 115px 5px ;
+
+  }
+  .foto-user{
+    width: 250px;  
+    height:250px ;
+    margin-top: 10px;
+    padding: 0px 20px 0px 20px;
+    
+    
+  }
+  .wrapper-content{
+      border-radius: 15px;
+      background:rgba(240, 236, 236, 0.25)
+  }
+  .text-center{
+      margin-top: 10px;
+      text-align: center;
+      font-family: Montserrat, sans-serif;
+      color: white;
+  }
+  .codigo-unico{
+    width: 250px;  
+    height:80px ;
+    margin-top: 10px;
+    padding: 0px 15px 15px 15px;
+  }
